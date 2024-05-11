@@ -1,12 +1,23 @@
 body {
-  background-image: url(bricks.jpg);
+  background: rgb(212, 97, 187);
+background: radial-gradient(circle, rgba(251, 188, 234, 0.686) 0%, rgba(255, 112, 117, 0.658) 100%);
   text-align: center;
 
 }
 h1 {
-  color:aliceblue;
-  font-family: "Hind", sans-serif;
+  color:rgb(148, 88, 157);
+  font-family: "Raleway", sans-serif;
+  font-size: larger; 
+  border-radius: 20px;
+  background-color: white;
+  padding: 20px; 
+  margin-bottom: 30px;
+
 }
+header {
+  margin-bottom: 30px;
+}
+
 
 a {
   text-decoration: none;
@@ -14,5 +25,78 @@ a {
 }
 
 footer {
-  color: white;
+  color: rgb(106, 50, 123);
+  font-family: "Hind", sans-serif;
+  padding-bottom: 80px auto;
+  font-weight: 100;
+  font-size: smaller;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container 
+{
+  background-color: rgb(252, 255, 255);
+  margin: 50px auto;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+
+
+input {
+    background-color: rgb(236, 227, 236);
+    color: rgb(0, 0, 0);
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+input[type="submit"] {
+    background-color: rgb(190, 112, 190);
+    width: 150px;
+    display: block;
+    margin: 0px auto;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 18px;
+     font-family: "Hind", sans-serif;
+    color: white;
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(127, 73, 166);
+}
+
+.poem {
+text-align: center;
+  display: block;
+  font-size: 18px;
+  background-color: #f6dbf3;
+  line-height: 2;
+  border-left: 3px solid #f15dac;
+  border-right: 3px solid #f15dac;
+  box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+  border-radius: 10px;
+  color: rgb(173, 29, 53); 
+  text-shadow: #f6dbf3;
+  font-family:  font-family: "Raleway", sans-serif; 
+  font-family: "Dosis", sans-serif;
+  max-width: 500px;
+   padding: 20px;
+   margin: 60px auto; 
+  
+  
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
 }

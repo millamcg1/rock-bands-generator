@@ -4,31 +4,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rock Bands Generator</title>
+   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Hind:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
 </head>
-<body>
-  <h1>Welcome to the Rock Bands AI Generator 🤘🏻</h1>
+<body> 
+   <div class="container">
+      <header>
+        <h1>AI Brazilian Poem Generator 🌸</h1>
+      </header>
 
-  <main>
-
-    <form>
-      <input type="text" placeholder="Enter the type of rock music" 
-      autofocus
-      required
-      autocomplete="off"/> 
-     <input type="submit"
-      />
-    </form>
-    <br>
-    <div>
-      Journey
+      <main>
+        <form id="poem-generator-form">
+          <input
+            type="text"
+            placeholder="Enter the topic of the Brazilian poem 📚"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit" />
+        </form>
+        <br> 
+        <br> 
+        
     </div>
+    <div id="poem" class="poem"><span class="Typewriter__wrapper">
+    
   </main>
-
+</div>
   <footer>This AI project was coded by <a href="https://www.linkedin.com/in/camilla-luna-mcgoldrick-7982b7303/">Camilla Luna-McGoldrick 👩🏻‍💻</a>, it is open-source on <a href="https://github.com/millamcg1/rock-bands-generator">GitHub 🐱</a> and is available on <a href="https://rock-band-generator.netlify.app/">Netifly 💻</a></a></footer>
-       
+</body>
 <script src="index.js"></script>
 </html>

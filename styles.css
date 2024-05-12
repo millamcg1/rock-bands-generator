@@ -100,3 +100,8 @@ div {
     display: block;
     unicode-bidi: isolate;
 }
+
+.hint {
+   font-family:  font-family: "Raleway", sans-serif; 
+   color: #f15dac; 
+}
